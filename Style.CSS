@@ -1,0 +1,65 @@
+This is my CSS code
+
+/* This is an external CSS file (e.g., style.css) */
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Header styles */
+h1 {
+  color: #0056b3;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Paragraph styles */
+p {
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+/* Button styles */
+.button {
+  display: inline-block;
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #218838;
+}
+
+/* Container for content */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+  .container {
+    padding: 20px;
+  }
+  h1 {
+    font-size: 24px;
+  }
+}
